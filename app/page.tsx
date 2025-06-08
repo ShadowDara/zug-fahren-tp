@@ -27,14 +27,15 @@ export default function Home() {
   else if (showContent === 2) {
     content = (
       <button onClick={show_page}>
-        <h1>Los geht's! 🚆</h1>
+        <h1>Los geht&apos;s! 🚆</h1>
       </button>);
   }
   else if (showContent === 3) {
     content = (
-      <button onClick={show_page}>
+      <div>
         <Startpage />
-      </button>);
+      </div>
+    )
   }
   else {
     content = (
