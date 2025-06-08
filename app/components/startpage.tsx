@@ -1,9 +1,11 @@
+'use client';
+
 import Image from "next/image";
 
 export default function startpage() {
   return (
-    <div className="grid gap-15 place-items-center mb-[50]">
-      <h1 className="text-8xl mt-[120] text-center">
+    <div className="grid gap-15 place-items-center mb-20">
+      <h1 className="text-8xl mt-20 text-center">
         Zug fahren
       </h1>
       <p className="text-2xl text-center">
