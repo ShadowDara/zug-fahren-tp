@@ -11,7 +11,7 @@ export default function copyright() {
           </a>
         </span>
 
-        <span> - Copyright - 2025 - </span>
+        <span> - Copywrong - 2025 - </span>
 
         <span>
           <a href="https://instagram.com/zugfahren2025" target="_blank" className="text-blue-400 underline">
