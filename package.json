@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build && echo > out/.nojekyll",
+    "build": "next build",
+    "sbuild": "next build && echo > out/.nojekyll",
     "start": "next start",
     "lint": "next lint"
   },
