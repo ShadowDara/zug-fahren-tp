@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function startpage() {
   return (
-    <div className="grid gap-20 place-items-center mb-[50]">
-      <h1 className="text-8xl/10 mt-[120]">
+    <div className="grid gap-15 place-items-center mb-[50]">
+      <h1 className="text-8xl mt-[120] text-center">
         Zug fahren
       </h1>
-      <p className="text-2xl/0">
+      <p className="text-2xl text-center">
         Der kommt sicher zügig!
       </p>
       <Image
@@ -17,6 +17,9 @@ export default function startpage() {
         priority
       />
       <p>mehr text soon...</p>
+
+      <p>mehr text soon... 2</p>
+
     </div>
   )
 }
