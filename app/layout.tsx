@@ -14,11 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Zug fahren!",
-  description: "Zug fahren! Der kommt sicher zügig!",
-  icons: {
-    icon: "/icon.svg",
-    apple: "/icon.svg",
-  },
+  description: "Zug fahren! Der kommt sicher zügig!"
 };
 
 export default function RootLayout({

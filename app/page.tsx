@@ -5,7 +5,7 @@ import Startpage from "./components/startpage"
 
 export default function Home() {
   let content;
-  const [showContent, setShowContent] = useState(3);
+  const [showContent, setShowContent] = useState(0);
 
   const show_page = () => {
     setShowContent(showContent + 1);
