@@ -5,7 +5,7 @@ import Startpage from "./components/startpage"
 
 export default function Home() {
   let content;
-  const [showContent, setShowContent] = useState(0);
+  const [showContent, setShowContent] = useState(3);
 
   const show_page = () => {
     setShowContent(showContent + 1);
@@ -15,6 +15,9 @@ export default function Home() {
     content = (
       <button onClick={show_page}>
         <h1>Zug fahren!</h1>
+        <br></br>
+        <br></br>
+        <p>Click me multple times ;)</p>
       </button>
     );
   }
