@@ -16,6 +16,11 @@ export default function startpage() {
           </p>
         </div>
 
+        <div className="text-xl">
+          <p>Life is so fast most of the time!</p>
+          <p>We should take some moments and look we have at the moment and what we really need!</p>
+        </div>
+
         <div className="grid gap-7 place-items-center">
           <Image
             className="max-w-full h-auto"
