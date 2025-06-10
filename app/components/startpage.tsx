@@ -31,7 +31,7 @@ export default function startpage() {
             priority
           />
           <p>
-            dunkel rote Diesellokomotive and Bahnhof
+            dunkel rote Diesellokomotive am Bahnhof
           </p>
         </div>
 
